@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+} 
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+.line-text{
+    position: relative;
+    display: inline-block;
+    /* color: #a3b18a; */
+}
+
+.line-text > div{
+    position: absolute;
+    width: 35%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background-color: #a3b18a;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+}
+
+/*-----------------------Aux Classes----------------------------*/
+
+/*-----------------------Header----------------------------*/
+
+header{
+    background-color: #a3b18a;
+    padding: 20px;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+.logo a{
+    font-size: 23px;
+    color: white;
+}
+
+.menu-socials{
+    float: right;
+}
+
+.menu-socials ul{
+    list-style: none;
+    position: relative;
+    padding: 8px 0;
+}
+
+.menu-socials li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.menu-socials a{
+    color: white;
+}
+
+/*-----------------------Header----------------------------*/
+
+/*-----------------------Banner----------------------------*/
+
+section.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/240/302/non_2x/abstract-soft-focus-sunset-field-landscape-of-yellow-flowers-and-grass-meadow-warm-golden-hour-sunset-sunrise-time-tranquil-spring-summer-nature-closeup-and-blurred-forest-background-idyllic-nature-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.banner > .container{
+    z-index: 101;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 100;
+}
+
+section.banner h2{
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+section.banner p{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*-----------------------Banner----------------------------*/
+
+/*-----------------------Projects----------------------------*/
+
+section.projects{
+    padding: 30px;
+}
+
+section.projects > .line-text h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+section.projects > .container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-wrapper{
+    width: 50%;
+    padding: 20px;
+}
+
+.single-box{
+    height: 100%;
+    border: 1px solid #a3b18a;
+}
+
+.single-box h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.single-box img{
+    width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-size: contain;
+}
+
+.single-box p{
+    padding: 8px;
+}
+
+.single-box a{
+    color: white;
+    text-decoration: none;
+    background: #a3b18a;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 8px;
+    font-size: large;
+}
+
+.single-box a:hover{
+    background-color: #7a8765;
+    transition: 0.5s;
+}
+
+/*-----------------------Projects----------------------------*/
+
+/*-----------------------Footer 1----------------------------*/
+.footer1{
+    background-color: #a3b18a;
+    padding: 30px;
+}
+
+.footer1 a{
+    color: white;
+}
+
+.footer1 h2{
+    color: white;
+}
+
+.footer1 p{
+    color: white;
+}
+
+.footer1 i{
+    padding: 4px;
+}
+/*-----------------------Footer 1----------------------------*/
+
+/*-----------------------Footer 2----------------------------*/
+.footer2{
+    background-color: #7a8765;
+    text-align: center;
+}
+
+.footer2 p{
+    color: white;
+    padding: 20px;
+}
+/*-----------------------Footer 2----------------------------*/
+
+/*-----------------------Media Querrys----------------------------*/
+@media screen and (max-width: 768px){
+
+    .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .menu-socials{
+        float: none;
+        display: none;
+    }
+
+    section.projects > .container{
+        display: block;
+    }
+
+    .box-wrapper{
+        width: 100%;
+    }
+}
+
+/*-----------------------Media Querrys----------------------------*/
+
+
+
+
