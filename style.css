@@ -411,7 +411,7 @@ section.footer{
 
 section.contact{
     min-height: 100%;
-    padding: 0px;
+    padding: 20px 0;
     background-color: #F8F6F4;
     color: #2D4059;
 }
@@ -662,20 +662,24 @@ section.success-msg{
 /*------------------- Media Querrys ----------------------*/
 @media screen and (max-width: 1350px){
     .about-text-wrp{
-        width: 100%;
-        float: none;
+        width: 50%;
+        float: left;
+        padding-top: 70px;
+    }
+    
+    .about-text-wrp p{
+        color: #2D4059;
+        font-size: 22px;
+        padding: 20px;
     }
     
     .about-img-wrp{
-        display: none;
-    }
-
-    .success-msg-wrp{
-        width: 100%;   
+        width: 50%;
+        padding: 100px 0 0 150px;
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     .items-container{
         display: inline-block;
     }
@@ -705,6 +709,15 @@ section.success-msg{
     .success-msg-wrp p{
         font-size: 20px;
     }
+
+    .about-text-wrp p{
+        font-size: 16px;
+    }
+
+    .about-img-wrp{
+        width: 50%;
+        padding: 200px 0 0 100px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -723,6 +736,15 @@ section.success-msg{
     .success-msg-wrp{
         text-align: center;
     }
+
+    .about-img-wrp{
+        display: none;
+    }
+
+    .about-text-wrp{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 500px){
