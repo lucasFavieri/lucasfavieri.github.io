@@ -60,8 +60,4 @@ I am focused on leveraging Python, Statistics, and Predictive Modeling to solve 
 
 ---
 
-<p align="left">
-  <a href="https://github.com/lucasFavieri">
-    <img src="https://github-readme-stats.vercel.app/api?username=lucasFavieri&show_icons=true&theme=radical" alt="Lucas Favieri's GitHub Stats" />
-  </a>
-</p>
+![Lucas's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucasFavieri&show_icons=true&theme=radical)
