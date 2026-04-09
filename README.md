@@ -57,7 +57,3 @@ I am focused on leveraging Python, Statistics, and Predictive Modeling to solve 
 * **LinkedIn:** [linkedin.com/in/lucas-favieri](https://www.linkedin.com/in/lucas-favieri/)
 * **Portfolio:** [lucasfavieri.github.io](https://lucasfavieri.github.io/index.html)
 * **Email:** [lucasfavieri01@gmail.com]
-
----
-
-![Lucas's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucasFavieri&show_icons=true&theme=radical)
