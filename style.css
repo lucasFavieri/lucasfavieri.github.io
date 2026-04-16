@@ -104,7 +104,7 @@ main.main-project, main.mian-contact, main.main-about{
 header{
     padding: 30px 0 0 0;
     background-color: #FFFF;
-    width: 100%;  
+    width: 100%; 
 }
 
 .logo-container{
@@ -137,18 +137,21 @@ header{
     padding: 5px;
 }
 
-.nav-menu li a{
+.nav-menu li a {
+    display: inline-block; /* Importante: transform não funciona bem em elementos 'inline' */
     color: #2D4059;
     text-decoration: none;
-    transition: 0.5s ease;
-}
-
-.nav-menu li a{
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.4s ease;
     font-size: 20px;
 }
 
-.nav-menu li a:hover{
+.nav-menu li a:hover {
     color: #D4A373;
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
+.nav-menu li a:active {
+    transform: scale(0.95); /* Dá um leve 'pulo' para baixo ao clicar */
 }
 
 .header-btn{
