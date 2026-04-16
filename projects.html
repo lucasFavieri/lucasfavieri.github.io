@@ -6,11 +6,10 @@
         <title>Lucas Favieri</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="icon" type="image/png" href="/Images/logo2.(2).png">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
@@ -20,10 +19,17 @@
     <div class="loader2"></div><!--loader2-->
 
     <main class="main-projects">
-    <nav class="vertical-menu">
-        <span class="line"></span> <!-- Optional divider -->
-        <a href="/index.html">Home</a>
-    </nav>
+    <nav class="horizontal-menu">
+    <div class="container">
+        <div class="menu-links">
+            <a href="index.html"><span>01</span> HOME</a>
+            <a href="projects.html"><span>02</span> PROJECTS</a>
+            <a href="about.html"><span>03</span> ABOUT ME</a>
+            <a href="contact.html"><span>04</span> CONTACT</a>
+        </div>
+        <div class="line-horizontal"></div>
+    </div>
+</nav>
     
     <section id="projects" class="projects">
         <div class="container">
@@ -32,40 +38,51 @@
                 <span>A collection of my projects.</span>
             </div><!--call-projects-->
 
-            <div class="home-btn-mobile">
-                <a href="/index.html"><i class="fa-solid fa-arrow-left fa-lg"></i></a>
-            </div><!--home-btn-mobile-->
-
             <div class="project-grid">
                 <div class="project-wrp appear">
-                    <a class="project-link" target="_blank" href="https://lucasfavieri.github.io/landingpage.github.io/">
-                    <img src="/Images/thumb1.jpg" alt="Project 1">
-                    <h3>Responsive Landing Page</h3>
-                    <p>This is a full responsive Landing Page that simulates a full WebSite, with some basic JavaScript and all different kinds of modern HTML5 and CSS.</p>
+                    <a class="project-link" target="_blank" href="https://colab.research.google.com/github/lucasFavieri/marketing-analytics-ab-testing/blob/main/ab_testing_marketing_analysis.ipynb">
+                        <img src="Images/marketing_ab_thumb.png" alt="Marketing A/B Testing">
+                        
+                        <div class="project-header">
+                            <h3>Marketing A/B Testing Analysis</h3>
+                            <object> 
+                                <a href="https://github.com/lucasFavieri/marketing-analytics-ab-testing" target="_blank" class="github-icon-link" title="View Code on GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </object>
+                        </div><!--project-header-->
+
+                        <p>Statistical analysis of advertising campaigns to validate the effectiveness of new creative assets. I utilized hypothesis testing to determine if conversion rates were statistically significant.</p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Statistics</span>
+                            <span class="tag">A/B Testing</span>
+                        </div><!--project-tags-->
                     </a><!--project-link-->
                 </div><!--project-wrp-->
 
                 <div class="project-wrp appear">
-                    <a class="project-link" target="_blank" href="https://lucasfavieri.github.io/gallery.github.io/#">
-                        <img src="/Images/thumb2.png" alt="Project 2">
-                        <h3>Gallery</h3>
-                        <p>This is a Page that uses FlexBox to showcase a "Gallery" for a site, very simple and clean code! I just wanted to show a little bit of the FlexBox.</p>
-                    </a><!--project-link-->
-                </div><!--project-wrp-->
+                    <a class="project-link" target="_blank" href="https://colab.research.google.com/github/lucasFavieri/marketing-analytics-ab-testing/blob/main/ab_testing_marketing_analysis.ipynb">
+                        <img src="Images/marketing_ab_thumb.png" alt="Marketing A/B Testing">
+                        
+                        <div class="project-header">
+                            <h3>Economic Data Analysis & Hypothesis Testing</h3>
+                            <object> 
+                                <a href="https://github.com/lucasFavieri/economic-data-analysis-hypothesis-testing" target="_blank" class="github-icon-link" title="View Code on GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </object>
+                        </div><!--project-header-->
 
-                <div class="project-wrp appear">
-                    <a class="project-link" target="_blank" href="https://lucasfavieri.github.io/pokedex.github.io/">
-                        <img src="/Images/pokedex_thumb.png" alt="Project 3">
-                        <h3>Pokédex</h3>
-                        <p>This project is an interactive Pokédex built with HTML, CSS, and JavaScript, using the PokéAPI. It dynamically loads Pokémon, displays their types with custom colors, and applies smooth animations for a better experience. 🚀</p>
-                    </a><!--project-link-->
-                </div><!--project-wrp-->
-
-                <div class="project-wrp appear">
-                    <a class="project-link" target="_blank" href="https://weather-app-tau-seven-38.vercel.app/">
-                        <img src="/Images/weather_app_thumb.png" alt="Project 4">
-                        <h3>Weather App 🌤️ </h3>
-                        <p>Built with React and Vite, this real-time weather app delivers accurate forecasts worldwide. Features include the current temperature, city name, and location, all of which are updated automatically.</p>
+                        <p>Comprehensive Exploratory Data Analysis (EDA) on economic datasets. I applied statistical hypothesis testing to identify and validate correlations between various macroeconomic variables.</p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">EDA</span>
+                            <span class="tag">Correlation</span>
+                            <span class="tag">Statistics</span>
+                        </div><!--project-tags-->
                     </a><!--project-link-->
                 </div><!--project-wrp-->
 
@@ -81,7 +98,6 @@
                     <li><a href="https://www.instagram.com/lucas_favieri?igsh=MTB0cGM2Njd0MXJ2eQ%3D%3D"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/lucas-favieri/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
                     <li><a href="https://github.com/lucasFavieri"><i class="fa-brands fa-github fa-xl"></i></a></li>
-                    <li><a href="mailto: https://outlook.live.com/mail/0/"><i class="fa-solid fa-envelope fa-xl"></i></a></li>
                 </ul>
             </div><!--footer-icons-->
         </div><!--container-->
