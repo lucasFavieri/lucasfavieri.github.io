@@ -483,6 +483,12 @@ main.main-projects{
     animation: slideInUp 0.6s ease-out forwards;
 }
 
+.project-wrp:hover{
+    scale: 1.05;
+    transition: 0.4s ease;
+
+}
+
 .project-wrp:nth-child(1) {
     animation-delay: 0.7s; /* Aparece logo após o loader sumir */
 }
