@@ -491,6 +491,11 @@ main.main-projects{
     animation-delay: 0.9s; /* Aparece 200ms depois do primeiro */
 }
 
+.project-wrp:nth-child(3) {
+    animation-delay: 1.1s; /* Aparece 200ms depois do primeiro */
+}
+
+
 .project-wrp:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(212, 163, 115, 0.15); /* Sombra brilha em dourado */
